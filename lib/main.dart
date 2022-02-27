@@ -1,4 +1,4 @@
-import 'package:compass_app/home_page.dart';
+import 'package:compass_app/splashscreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -8,10 +8,9 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Compass App',
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: Splash(),
     );
   }
 }
